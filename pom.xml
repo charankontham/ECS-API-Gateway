@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ecs</groupId>
-	<artifactId>ecs-gateway-api</artifactId>
+	<artifactId>ecs-api-gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ecs-gateway-api</name>
-	<description>ECS Gateway API Service</description>
+	<name>ecs-api-gateway</name>
+	<description>ECS API Gateway Service</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -33,13 +33,13 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-gateway-mvc</artifactId>
+			<artifactId>spring-cloud-starter-gateway</artifactId>
+			<version>4.1.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

@@ -1,10 +1,10 @@
-package com.ecs.ecs_gateway_api;
+package com.ecs.ecs_api_gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EcsGatewayApiApplicationTests {
+class EcsApiGatewayApplicationTests {
 
 	@Test
 	void contextLoads() {
